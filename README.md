@@ -1,1 +1,1 @@
-Testing 
+Simple Particle simulator using python. Work in progress.
