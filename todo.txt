@@ -1,4 +1,10 @@
-Things to do in vague order of importance:
+
+SHORT TERM THINGS TO DO:
+
+change gameloop script in to a class that can be initialized.
+
+LONG TERM GOALS:
+
 
 make sure that python/scipy/pyopengl are compatable and running on both machines
 
