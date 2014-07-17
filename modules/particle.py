@@ -1,7 +1,7 @@
 '''We want an abstract class that creats particles in there most general sense. 
 This class is then extended by more specfic particles, ie attractors etc'''
 
-class particle(object): 
+class Particle(object): 
     
     
     '''----------Fields----------'''
@@ -110,7 +110,10 @@ class particle(object):
         self.yVelocity+=self.yAcceleration
         self.xAcceleration=newXAcc
         self.yAcceleration=newYAcc
-        
+        #NOTE: there may be numerical approximation issues to do with the 
+        # delay between determining the acceleration and that acceleration
+        # affect the position.
+                
         if (isBound==True):
             reflectParticle() # this method ensures that the particle stays in the window
         
